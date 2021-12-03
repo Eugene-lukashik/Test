@@ -16,7 +16,4 @@ export default class Augmentor extends LightningElement {
         }
     }
 
-    testMethod() {
-        return null;
-    }
 }

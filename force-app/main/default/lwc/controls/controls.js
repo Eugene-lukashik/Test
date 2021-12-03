@@ -18,7 +18,4 @@ export default class Controls extends LightningElement {
             detail: factor
         }));
     }
-
-    test() {
-    }
 }
