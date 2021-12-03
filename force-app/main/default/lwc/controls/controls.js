@@ -20,6 +20,5 @@ export default class Controls extends LightningElement {
     }
 
     test() {
-        const test = 'test';
     }
 }
