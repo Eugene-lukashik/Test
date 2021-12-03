@@ -18,4 +18,20 @@ export default class Controls extends LightningElement {
             detail: factor
         }));
     }
+
+    testOne() {
+        const link = this.template.querySelector('c-numerator');
+
+        if (link) {
+            link.maximizeCounter();
+        }
+    }
+
+    testTwo() {
+        const link = this.template.querySelector('c-numerator');
+
+        if (link) {
+            link.maximizeCounter();
+        }
+    }
 }
