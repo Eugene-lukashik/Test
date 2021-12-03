@@ -16,4 +16,19 @@ export default class Augmentor extends LightningElement {
         }
     }
 
+    testOne() {
+        const link = this.template.querySelector('c-numerator');
+
+        if (link) {
+            link.maximizeCounter();
+        }
+    }
+
+    testTwo() {
+        const link = this.template.querySelector('c-numerator');
+
+        if (link) {
+            link.maximizeCounter();
+        }
+    }
 }
