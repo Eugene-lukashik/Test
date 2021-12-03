@@ -24,9 +24,6 @@ export default class Controls extends LightningElement {
         if (link) {
             link.maximizeCounter();
         }
-        if (link) {
-            link.maximizeCounter();
-        }
     }
 
     testTwo() {
