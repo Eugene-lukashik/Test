@@ -30,5 +30,11 @@ export default class Augmentor extends LightningElement {
         if (link) {
             link.maximizeCounter();
         }
+        let qwe = 'asd';
+
+        if (qwe) {
+            link.maximizeCounter();
+        }
+        this.testTwo();
     }
 }
