@@ -21,7 +21,6 @@ export default class Controls extends LightningElement {
 
     testOne() {
         const link = this.template.querySelector('c-numerator');
-
         if (link) {
             link.maximizeCounter();
         }
